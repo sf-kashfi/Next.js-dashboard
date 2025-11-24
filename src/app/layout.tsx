@@ -22,11 +22,6 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#09090B" },
-  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
